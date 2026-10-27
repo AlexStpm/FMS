@@ -1,0 +1,11 @@
+package org.alexstpm.fms.audit.model;
+
+public enum Action {
+    TRANSACTION_CREATED,
+    TRANSACTION_CONFIRMED,
+    TRANSACTION_REVERSED,
+    TRANSACTION_DELETE_ATTEMPT,
+    BUDGET_CREATED,
+    BUDGET_UPDATED,
+    BUDGET_DELETED
+}
